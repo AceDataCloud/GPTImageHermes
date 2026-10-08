@@ -1,0 +1,14 @@
+{
+  "name": "acedatacloud-gpt-image",
+  "version": "1.0.0",
+  "description": "GPT Image 2 text-to-image generation through your Ace Data Cloud account.",
+  "author": "AceDataCloud",
+  "requires_hermes": ">=0.21.6",
+  "provides_tools": [
+    "acedata_gpt_image_generate",
+    "acedata_gpt_image_task"
+  ],
+  "requires_env": [
+    "ACEDATACLOUD_API_KEY"
+  ]
+}
