@@ -1,12 +1,12 @@
 {
   "name": "acedatacloud-gpt-image",
   "version": "1.0.0",
-  "description": "GPT Image 2 text-to-image generation through your Ace Data Cloud account.",
   "author": "AceDataCloud",
-  "requires_hermes": ">=0.21.6",
+  "description": "GPT Image by Ace Data Cloud: source-only single-service Git plugin. Calls spend paid Credits without a Hermes approval prompt; model options can increase cost. Prompts/reference URLs go to api.acedata.cloud. Never automatically resubmit generation.",
+  "requires_hermes": ">=0.23.0",
   "provides_tools": [
-    "acedata_gpt_image_generate",
-    "acedata_gpt_image_task"
+    "acedatacloud_single_gpt_image_generate",
+    "acedatacloud_single_gpt_image_task"
   ],
   "requires_env": [
     "ACEDATACLOUD_API_KEY"
