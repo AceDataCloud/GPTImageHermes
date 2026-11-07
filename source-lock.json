@@ -1,0 +1,36 @@
+{
+  "canonical_repository": "https://github.com/AceDataCloud/AceDataCloudMediaHermes",
+  "canonical_commit": "230d90061406b57d50624b6772c3072ba4da9545",
+  "generator": "scripts/export_service.py",
+  "service": "gpt-image",
+  "consumer_repository": "https://github.com/AceDataCloud/GPTImageHermes",
+  "canonical_contract": "services/gpt-image.json",
+  "identity_map": {
+    "tool_prefix": [
+      "acedatacloud_gpt_image",
+      "acedatacloud_single_gpt_image"
+    ],
+    "toolset": [
+      "acedatacloud-gpt-image",
+      "acedatacloud-single-gpt-image"
+    ],
+    "native_image_provider": null
+  },
+  "transport_sha256": "2653fd9275cbda09beff43968d943baa82df83656217d08ddeb9521cc99b1d7f",
+  "canonical_operation_sha256": "80de4aa8eb10b1ebabeb1898e0f14e620049a751cfbd700f4295c2f5adbb9d4b",
+  "generated_files": {
+    "__init__.py": "9d51d110361ab2acec5c3561cb500e6545ccce8541b97aa4557b4cea73d13712",
+    "client.py": "2653fd9275cbda09beff43968d943baa82df83656217d08ddeb9521cc99b1d7f",
+    "image_provider.py": "183dc1f72fa1905364466aa30da14d82c074d3484ee6a6a6a5b739a62342490c",
+    "services/gpt-image.json": "4fe83dece9d21157f7258c8cd117e721f2ece194d371f6011140334339bb6163",
+    "plugin.yaml": "b238a32e344f8a32ecbbc774a5e6bc17d5b882b1bc4c3365108415371b2ed809",
+    "tests/test_contracts.py": "fa834427da679d6abb5a4a697f2d8a5ea18fcd9589aef7cb7077c3ebf5ff7dd3",
+    "tests/test_registration.py": "b43832ba1897fac0d0c6e26732c74408e1e74750775195cbe7d2e5cdcf31446b",
+    "tests/test_source_profile.py": "dbe36c636c4d9c6cbc05099305adeb69c36ed5c15c9cc547b610f17bb78b881d",
+    "scripts/check_runtime.py": "be594c81cf4436cc9689babae0344815268aab33345afc391221079be151e90f",
+    "LICENSE": "72d30730d068e067be58878959bac2450f5a05f2b2e3c365cdc13a0181635c3c",
+    ".github/workflows/validate.yml": "262a9eb73a15093c323d147b0e2532934bf36e43cb3a2a5d6412f08e823aa5ba",
+    "README.md": "cc9e52625167091b8a138aef922270417fac59d8b86ac657860c9446c2e57540",
+    "readme/README_zh_Hans.md": "094c7cd979261e0dd26259dc419a1421baddefdfca44f5ea319ac08a731e67d1"
+  }
+}
